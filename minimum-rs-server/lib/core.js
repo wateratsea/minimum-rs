@@ -31,6 +31,8 @@ module.exports = {
 		settings = arg;
 		const server = http.createServer(settings.customize, service);
 		server.listen(settings.http.port);
+		if(!settings.https && !settings.https.port)
+			return;
 		const https_server = https.createServer(settings.customize, service);
 		https_server.listen(settings.https.port);
 	}
