@@ -14,7 +14,7 @@ node-v10.13.0-win-x64を使用しています。
 
 ## Usage
 vscodeに読ませてminimum-rs-serverをnpmでインストールしてminimum-rs-sampleのlaunch.jsonのnode.exeのパスを直して実行します。
-
+SSLを使う場合は、証明書を作成の上でパスを書き換えて使用します。
 
 ## Licence
 
