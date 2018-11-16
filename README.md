@@ -1,4 +1,4 @@
-# small-rest
+# minimum-rs
 JAX-RSみたいにrestでinterceptできたりするものが作ってみたくて勉強ついでに作ってみました。
 
 ## Description
